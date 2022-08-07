@@ -5,9 +5,15 @@ public class githunggg {
 		
 		
 		System.out.println("mahender");
+ 
 		System.out.println("mahender1");
 		System.out.println("mahender2");
 		
+ 
+		System.out.println("mahender");
+		System.out.println("mahender");
+		System.out.println("mahendernani");
+ 
 	}
 
 }
