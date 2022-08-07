@@ -30,7 +30,7 @@ public class loginstephh extends Base{
 
 @Given("^User Launch Chrome Browser$")
 public void user_Launch_Chrome_Browser()  {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\mahender\\workspace\\ecomrce\\driver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\mahender\\git\\Ecommerce-Tests\\ecomrce\\driver\\chromedriver.exe");
 	driver=new ChromeDriver();
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
