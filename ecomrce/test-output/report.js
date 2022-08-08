@@ -78,7 +78,7 @@ formatter.match({
   "location": "loginstephh.user_Launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 3350616600,
+  "duration": 3258661100,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "loginstephh.user_opens_URL(String)"
 });
 formatter.result({
-  "duration": 19452887999,
+  "duration": 2401077500,
   "status": "passed"
 });
 formatter.match({
@@ -108,57 +108,53 @@ formatter.match({
   "location": "loginstephh.user_entered_Email_id_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "duration": 264586900,
+  "duration": 253040400,
   "status": "passed"
 });
 formatter.match({
   "location": "loginstephh.click_Login()"
 });
 formatter.result({
-  "duration": 24485711000,
+  "duration": 10039875800,
   "status": "passed"
 });
 formatter.match({
   "location": "loginstephh.user_can_view_Dashborad()"
 });
 formatter.result({
-  "duration": 2020023699,
-  "status": "passed"
+  "duration": 12193281100,
+  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ANUHYA\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\mahender\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2cf3af5a6e7b9b83bf2a9bf8d3329af0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat pageobjects.Newcustomer.getPageTitle(Newcustomer.java:31)\r\n\tat Steps.loginstephh.user_can_view_Dashborad(loginstephh.java:89)\r\n\tat ✽.Then User can view Dashborad(C:/Users/mahender/git/Ecommerce-Tests/ecomrce/featurefiles/customer.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "loginstephh.user_can_click_Customers_menu()"
 });
 formatter.result({
-  "duration": 2114583500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.user_can_click_on_Customers()"
 });
 formatter.result({
-  "duration": 23742455600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.user_can_click_on_Add_new_customer()"
 });
 formatter.result({
-  "duration": 6922007600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.user_can_entered_customer_info()"
 });
 formatter.result({
-  "duration": 2878545600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.click_on_the_save_button()"
 });
 formatter.result({
-  "duration": 1619998501,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -170,15 +166,13 @@ formatter.match({
   "location": "loginstephh.user_can_view_conformation(String)"
 });
 formatter.result({
-  "duration": 616733599,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.user_close_browser()"
 });
 formatter.result({
-  "duration": 217304200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 15,
@@ -247,7 +241,7 @@ formatter.match({
   "location": "loginstephh.user_Launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 1501707599,
+  "duration": 1386248300,
   "status": "passed"
 });
 formatter.match({
@@ -260,7 +254,7 @@ formatter.match({
   "location": "loginstephh.user_opens_URL(String)"
 });
 formatter.result({
-  "duration": 17268491099,
+  "duration": 19325597300,
   "status": "passed"
 });
 formatter.match({
@@ -277,63 +271,58 @@ formatter.match({
   "location": "loginstephh.user_entered_Email_id_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "duration": 265740200,
+  "duration": 249472500,
   "status": "passed"
 });
 formatter.match({
   "location": "loginstephh.click_Login()"
 });
 formatter.result({
-  "duration": 9063808899,
+  "duration": 4380730600,
   "status": "passed"
 });
 formatter.match({
   "location": "loginstephh.user_can_view_Dashborad()"
 });
 formatter.result({
-  "duration": 2009616000,
-  "status": "passed"
+  "duration": 6344500,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d103.0.5060.134)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ANUHYA\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\mahender\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 30a95abdd958d3aebe1c4b27979c0cba\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat pageobjects.Newcustomer.getPageTitle(Newcustomer.java:31)\r\n\tat Steps.loginstephh.user_can_view_Dashborad(loginstephh.java:89)\r\n\tat ✽.Then User can view Dashborad(C:/Users/mahender/git/Ecommerce-Tests/ecomrce/featurefiles/customer.feature:20)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "loginstephh.user_can_click_Customers_menu()"
 });
 formatter.result({
-  "duration": 2094172600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.user_can_click_on_Customers()"
 });
 formatter.result({
-  "duration": 21790935400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.enter_customer_Email()"
 });
 formatter.result({
-  "duration": 2138433800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.click_on_search_button()"
 });
 formatter.result({
-  "duration": 2124295100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.user_should_found_Email_in_the_Search_table()"
 });
 formatter.result({
-  "duration": 98586800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "loginstephh.close_browser()"
 });
 formatter.result({
-  "duration": 193289100,
-  "status": "passed"
+  "status": "skipped"
 });
 });
